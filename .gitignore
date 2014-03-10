@@ -8,6 +8,7 @@
 /build
 /dist
 /tags
+/nbproject/private
 
 # OS generated files #
 ######################
