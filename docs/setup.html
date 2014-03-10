@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Setup Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div>
+            <h2>Prerequisites</h2>
+            <ol>
+                <li>Vagrant. See: <a href="http://www.vagrantup.com/downloads">http://www.vagrantup.com/downloads</a></li>
+                <li>VirtualBox. See: <a href="https://www.virtualbox.org/wiki/Downloads">virtualbox.org/wiki/Downloads</a></li>
+                <li><em>(Highly recommended for windows users)</em> Some kind of unix-like terminal for SSH in your command window.  Suggested solution: install Git from <a href="http://msysgit.github.io/">http://msysgit.github.io/</a></li>
+            </ol>
+            
+            <h2>Getting Started</h2>
+            <p>If you want to get going right away, this will start your projoct with default settings right away.</p>
+            <ol>
+                <li>Navigate to the project directory
+                    <ul>
+                        <li><em>Protip: In windows press shift + right click in windows explorer in your folder to see an option in the right click menu to open command window in the current folder.</em></li>
+                    </ul>
+                </li>
+                <li>Run command "vagrant up".</li>
+                <li>Witness the magic.
+                    <ul>
+                        <li>
+                            <em>It will take a few minutes to start.  if it is your first time running vagrant, it will take more time to download the box for the first time.</em>
+                        </lI>
+                    </ul>
+                </li>
+                <li>Go to the localhost project location (default <a href="http://localhost:8888">localhost:8888</a>) to see your project.</li>
+            </ol>
+            
+            <h2>Confirm that the following match your configuration:</h2>
+            <ol>
+                <li>Apache Root password set in <a href="../modules/manifests/init.pp">/modules/manifests/init.pp</a></li>
+                <li>Local host port is set to something you like (default: 8888) in <a href="../Vagrantfile">Vagrantfile</a></li>
+            </ol>
+            
+            <h2>Suggestions</h2>
+            <ol>
+                <li>Netbeans is a great choice for working with this project starter, and the following plugins are specifically recommended:</li>
+                <ul>
+                    <li>CakePHP</li>
+                    <li>Vagrant</li>
+                    <li><a href="https://chrome.google.com/webstore/detail/netbeans-connector/hafdlehgocfcodbgjnpecfajgkeejnaa?hl=en">Netbeans connector for Chrome</a></li>
+                </ul>
+            </ol>
+        </div>
+    </body>
+</html>

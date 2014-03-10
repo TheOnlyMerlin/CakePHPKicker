@@ -1,0 +1,30 @@
+{
+    "name": "project_roadmap",
+    "label": "Project Roadmap",
+    "backlog": [
+        {
+            "label": "Provision app user in MySQL",
+            "desc": ""
+        },
+        {
+            "label": "Provision app database in MySQL",
+            "desc": ""
+        },
+        {
+            "label": "Make documentation covering suggested workflow",
+            "desc": ""
+        }
+    ],
+    "wishlist": [
+        {
+            "label": "Project setup script",
+            "desc": "Have a single script that asks you a series of questions about the project.  The idea?  When you first start a project (clone it from repo) you run the script, answer the simple questions, and it modifies the current project to hit the desires.  List of possible questions:\nName of project\napp directory rename?\ncakephp user name / password\n admin / root username / password\nsalt (sets random salt value by default)\nset cipher seed\noverride default port\nset local dns name (ie my.app or some such)\n\nAlso run any other 'normal' parts of setting up cakephp that can't be already in place via files.",
+            "subtasks": [
+                {
+                    "label": "",
+                    "desc": ""                    
+                }
+            ]
+        }
+    ]
+}
