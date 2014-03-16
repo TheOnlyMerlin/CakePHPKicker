@@ -11,3 +11,10 @@ include php::pear
 include php::pecl
 include mysql
 
+
+class {"composer":
+  target_dir      => '/usr/local/bin',
+  composer_file   => 'composer',
+  download_method => 'curl', # download methods are curl or wget
+  logoutput       => false
+}
